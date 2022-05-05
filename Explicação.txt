@@ -1,0 +1,41 @@
+Conclusão
+
+A linha vermelha  = Previsão
+A linha preta = Dataset
+
+As 07:00 o modelo fez um bom trabalho, conseguimos seguir bem a linha preta junto as previsões
+As 09:00  o modelo nao conseguiu fazer as previsões de maneira tão precisa, representando assim alguns erro do nosso modelo
+As 12:00 um trabalho razoável.
+As 15:00 por volta do dia 07/2011 a identificação de Outliers, o modelo nao conseguiu prever esses outliers
+pois é um valor extremo, foje muito do padrão, o que  poderia ser feito aqui ? voltar e remover os outliers, ou seja,
+um limpeza e treinar novamente o modelo. Aqui mostra como prever um Outlier é muito dificil porque ele foje do padrão.
+As 18:00 também com uma taxa considerável
+As 20:00 tambem razoável.
+
+
+O histograma mostra a distribuição com resíduos próximo de zero, significa que o valor
+ previsto e o valor observado é zero.
+Que o modelo não cometeu erros, significa que a maioria dos resíduos cai próximo de zero indicando que fez um bom trabalho.
+
+Espera-se que os resíduos tenham uma distribuição normal, ou seja, tenham a média próxima de zero
+com desvio padrão  = 1, basicamente o que nos vemos no gráfico.
+
+Indica que o modelo está bom, ele possui uma margem de erro ainda porque devemos otimizá-lo.
+
+Boxplot ao final mostram uma distribuição dos resíduos de cada uma das variáveis.
+
+Embora o modelo esteja correto ainda necessita de um trabalho de otimização.
+
+Uma das possibilidades seria alterar os parâmetros dos algoritimos.
+
+Outra possibilidade seria a criação de um script para isso.
+
+Outra seria alterar o processo de Data Munging, modificando o processo, porque agora conheço melhor o processo.
+
+Basicamente avaliar o modelo novamente  e ver onde  alterar o processo e fazer melhorias.
+
+
+São várias as possibilidades para otimizar o modelo, atá que se tenha um nível de Acurácia adequado para o projeto.
+
+ 
+
