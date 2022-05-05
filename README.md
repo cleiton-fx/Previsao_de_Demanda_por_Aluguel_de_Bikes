@@ -1,6 +1,6 @@
 # Previsao_de_Demanda_por_Aluguel_de_Bikes
 
-Attribute Information:
+Informações dos dataset.
 
 Both hour.csv and day.csv have the following fields, except hr which is not available in day.csv
 
